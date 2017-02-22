@@ -20,9 +20,7 @@
 
 
 def check(expect):
-
     actual = expect
-
     for row in range(0, len(expect)):
         for col in range(0, len(expect)):
             if expect[row][col] == "*":
